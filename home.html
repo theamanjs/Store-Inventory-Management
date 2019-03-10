@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+  <title>Store Management(STC)</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Custom Stylesheet   -->
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+   body{
+          background:white !important;
+      }
+  .back{
+      background:rgb(226, 226, 226);
+      font-size:16px;
+      border-radius:3px;
+      padding:10px 20px;
+      margin:10px auto;
+  }
+  .back strong{ 
+      color:black;
+      font-size:15px;
+      padding:5px 10px;
+      text-decoration:underline;
+  }
+  .back p{
+      display:inline;
+  } 
+  .customCentre{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      height:90vh;
+  }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand head" href="home.html">Store Management (STC)</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Stock Entry
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="stockReceive.php?inventory=all">Stock Receive</a>
+              <a class="dropdown-item" href="stockIssue.php?inventory=all">Stock Issue</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Add New
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="addDepartment.php">Department</a>
+              <a class="dropdown-item" href="addItem.php">Item</a>
+              <a class="dropdown-item" href="addScheme.php">Scheme</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="addVendor.php">Vendor</a>
+            </div>
+          </li>
+          <a class="nav-item nav-link" href="viewReceived.php">View Bills</a>
+          <a class="nav-item nav-link" href="help.html">Help</a>
+          <a class="nav-item nav-link" href="destroy.php">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+  <div class="container">
+      <div class="customCentre">
+        <h1>Welcome Admin!</h1>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- end of javascript files -->
+
+</body>
+</html>

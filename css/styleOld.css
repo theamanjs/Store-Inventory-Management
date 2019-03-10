@@ -1,0 +1,60 @@
+body {
+  background-color:rgba(0,0,0,0.1);
+}
+.login-one-form {
+  transform:translate(-50%, -50%);
+  top:50%;
+  max-width:350px;
+  width:350px;
+  left:50%;
+  background-color:#fff;
+  padding:30px;
+  padding-right: 45px;
+  border-radius:5px;
+  position:absolute;
+  box-shadow:2px 2px 4px rgba(0,0,0,0.2);
+}
+.login-one-ico {
+  padding:0px;
+  font-size:50px;
+  text-align:center;
+}
+
+.form-group {
+  text-align:center;
+}
+
+#input {
+  margin:10px;
+
+}
+#input:focus {
+  box-shadow: 0px 0px 3px #ee6e73;
+  border:1px solid transparent;
+
+}
+
+#button {
+  width:100%;
+  margin:10px;
+  background-color:#ee6e73;
+  border: none;
+  box-shadow: 0px 0px 3px #ee6e73;
+}
+
+#heading {
+  padding-bottom:10px;
+}
+
+#or{
+  font-size: 14px;
+  font-weight: bolder;
+}
+#guest{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+#guest i{
+	font-size: 60px;
+}
